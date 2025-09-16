@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite de Aniversário - Lucas Leon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    <div class="background-effect"></div>
+
+    <button id="audioControl" class="audio-control">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path d="M13.5 4.06c0-1.336-1.615-2.008-2.577-1.196L6.22 5.319A3.001 3.001 0 004.25 7.9c-1.106.674-1.106 2.21-.002 2.884l4.441 2.71a5 5 0 00.99 1.25l-.944.577A4.001 4.001 0 017 17.001v.002c0 1.071.996 1.777 1.977 1.22l5.586-3.141c.88-1.748-.258-3.778-2.221-3.778-.718 0-1.423.236-1.97.689l-1.921 1.171c-.77.47-.852 1.517-.184 2.05L13.5 15.94V4.06z" />
+            <path fill-rule="evenodd" d="M19.952 1.326a.75.75 0 01.034 1.06l-6.935 7.042 2.651 1.614a1 1 0 01.376 1.157 3.001 3.001 0 004.809 3.902.75.75 0 011.096.002 4.501 4.501 0 01-7.228-5.852l-2.67-2.709-6.392 6.471a.75.75 0 01-1.06-.034.75.75 0 01-.034-1.06l16.12-16.326z" clip-rule="evenodd" />
+        </svg>
+    </button>
+    
+    <div class="container">
+        <div class="quote-container">
+            <h1 class="demonslayer-title">Entre o céu e a terra.<br>Sou o mais Honrado</h1>
+            <div class="gojo-eyes"></div>
+            <p class="quote"></p>
+        </div>
+        
+        <div class="invitation">
+            <h2 class="name">Lucas Leon</h2>
+            
+            <div class="demonslayer-title">21 Anos</div>
+            
+            <div class="details">
+                <p class="date">21 de Setembro de 2025</p>
+                <p class="address">Av. Ermano Marchetti - 569 - Lapa</p>
+            </div>
+            
+            <div class="cosmic-eye"></div>
+            
+            <a href="https://forms.example.com" class="rsvp-button">CONFIRMAR PRESENÇA</a>
+            
+            <p class="cta">Mal posso esperar para celebrar com você!</p>
+        </div>
+    </div>
+
+
+    <!-- Áudios - Certifique-se de que os arquivos estão na mesma pasta -->
+    <audio id="backgroundMusic" loop>
+        <source src="background_music.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <audio id="clickSound">
+    <source src="click_sound.mp3" type="audio/mp3">
+    Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
